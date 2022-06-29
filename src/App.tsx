@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Details from "./Details";
 import ThemeContext from "./ThemeContext";
 
-
 const App = () => {
   const theme = useState("darkblue");
   return (
